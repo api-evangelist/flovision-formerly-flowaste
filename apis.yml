@@ -1,8 +1,13 @@
 aid: flovision-formerly-flowaste
 name: Flovision (formerly FloWaste)
-description: 'Flovision (formerly FloWaste) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Flovision Solutions (formerly FloWaste) builds AI-powered computer-vision systems for
+  food production, using cameras and machine learning to measure product on the line for yield
+  improvement, quality control, and staff-performance tracking. Its FloVision Nano (conveyor
+  measurement, KPI reporting, and benchmarking) and FloVision Pro (real-time operator guidance at
+  processing stations) products feed a hosted FloVision Analytics dashboard, and the company reports
+  processing over 23 million kg of food and recovering up to 1.5% of production yield. Insight
+  Partners portfolio company in the manufacturing / food-tech sector; no public developer API or
+  documentation surface has been published to date.'
 url: https://raw.githubusercontent.com/api-evangelist/flovision-formerly-flowaste/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://flovisionsolutions-20253.kxcdn.com/wp-content/uploads/2024/10/FloVision-Solutions-Featured-Image.jpg
 tags:
 - Company
 - Manufacturing
+- Artificial Intelligence
+- Computer Vision
+- Food Production
+- Quality Control
+- Yield Optimization
+- Analytics
+- Food Safety
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/flovision-formerly-flowaste-domain-security.yml
 - type: Website
   url: https://flovisionsolutions.com/
+- type: Blog
+  url: https://flovisionsolutions.com/resources/
+- type: Support
+  url: https://flovisionsolutions.com/contact/
+- type: PrivacyPolicy
+  url: https://flovisionsolutions.com/privacy-policy/
+- type: Login
+  url: https://analytics.flovisionsolutions.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
