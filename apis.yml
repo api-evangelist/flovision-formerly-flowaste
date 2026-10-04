@@ -47,7 +47,7 @@ tags:
 - Company
 - Manufacturing
 - Artificial Intelligence
-- Computer-Vision
+- Computer Vision
 - Food Production
 - Quality Control
 - Yield Optimization
@@ -63,6 +63,7 @@ tags_raw:
 - Yield Optimization
 - Analytics
 - Food Safety
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
